@@ -1,0 +1,155 @@
+*{
+    background-color: #404040 !important;
+    color: white;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+#logo{
+    width: 50px;
+    height: 50px;
+}
+#container{
+    text-align: center;
+}
+.bg-yellow{
+    background-color:yellow;
+}
+.container {
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-right: 50px;
+    margin-left: 12%;
+    display: inline-block;
+    background-color: yellow;
+    width: 15%;
+    height: 80%;
+    box-shadow: 5px 0px 15px yellow;
+    padding: 1px;
+    text-align: center;
+}
+.bg-szurke{
+    background-color: #404040;
+}
+.nav-item{
+    margin-left: 50px !important;
+}
+p{
+    background-color: #404040;
+    
+}
+.nav-link{
+    color: white !important;
+}
+.card{
+    width: 250px !important;
+    height: 10ű50px !important;
+}
+a{
+    font-size: large;
+}
+.margin-szoveg{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-green{
+    background-color: green;
+}
+.button-more{
+    text-align: center;
+    color: yellow;
+    border: 2px solid yellow;
+    margin-left: 45.5%;
+    margin-right: 45%;
+    width: 170px;
+    height: 50px;
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}
+.text-left{
+    margin-inline-start: 50px;
+}
+
+table{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.buttonka{
+    width: 250px;
+    height: 75px;
+    font-size: 30px;
+}
+.bg-yellow{
+    background-color: yellow !important;
+}

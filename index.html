@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chiacchiericcio</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Home</a>
+        <a href="requirements.html">Nike</a>
+        <a href="developers.html">Adidas</a>
+        <a href="download.html">Vans</a>
+      </div>
+      
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰</button>  
+      </div>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+      </script>
+    <div class="bg-yellow" style="height: 5px; width: 100%;"></div>
+    <div>
+        <h1 class="text-center" style="margin-bottom: 0px; text-align: center;">Nike shoes</h1>
+    </div>
+    <div class="bg-szurke">
+        <div class="container">
+            <div class="card-body bg-black">
+                <img class="card-img-top kepmeret" src="Image/kepbob.jpg" alt="developerek">
+                <p>Németh Csaba Bence</p>
+                <p>nemeth.csaba@csany-zeg.hu</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card-body bg-black">
+                <img class="card-img-top kepmeret" src="Image/kepen.jpeg" alt="developerek">
+                <p>Zsebők Dávid Ferenc</p>
+                <p>zsebok.david@csany-zeg.hu</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card-body bg-black">
+                <img class="card-img-top kepmeret" src="Image/keproland.jpg" alt="developerek">
+                <p>Troznai Roland</p>
+                <p>troznai.roland@csany-zeg.hu</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
